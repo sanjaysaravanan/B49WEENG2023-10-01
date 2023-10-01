@@ -1,0 +1,78 @@
+
+Recap:
+
+  Working with Array List using map ( Creates a new array of JSX elements )
+
+  Use of Key
+
+  Styling:
+    Normal CSS vs Module CSS
+  
+  Take the JSON Data from reqres.in as JSON file no need to request
+
+Topics:
+
+  1. Events in react
+      always use a named callback function
+
+  2. Rendering
+
+      React:
+        process of rendering
+
+          ReactDOM.createRoot --> creates virtual DOM from div id root
+
+          then the render method renders the JSX Component APP/Whatever it is\
+          using re-concillation process comparing the new manipuated vdom and the OLD VDOM/Real DOM, if any changes found propagate it to Real DOM
+        
+        conditional rendering:  
+          {<boolean-value-evaluation> && ( JSX Element )}
+          {<boolean-value-evaluation> ? (this JSX Element) : (that JSX Element)}
+
+  3. State --> is value in the rendered JSX that changes during any events
+      
+      Pimary in React:
+
+        ****** Do Not Touch Document Object in React ******
+
+        it is CRIME if You do so
+      
+      rendering & re-rendering parts of react
+
+        Normal JSX Syntax will render only once with any state hooks
+
+      Hooks:
+        Hooking setup between the memory of the JS and JSX Element
+
+        when a memory of JS changes( Hook memory value ), JSX automatically re-renders
+
+  4. Stateful & stateless component
+
+      Stateful component is component which has a state value which changes
+
+      Stateless -> Component which does not have a state value rather have only static values
+
+      Props ---> static values passed during rendering
+      State --> a value changes causing the re-rendering
+
+Tasks:
+
+  1. Day 21 --> Shopping Cart
+     https://docs.google.com/document/d/1mqZqoxmPlEioKCwVfuOYIUcG2kESrYuocrYO4h9kiRk/edit
+
+  2. Day 22 --> Home Page Design Using Bootstrap
+     https://docs.google.com/document/d/1erFPRTYe9d3V9QRwmEw8mxOI0ZeQ3_HklTtXwA3Ilco/edit
+
+     Create Multiple Components:
+      Header
+      LabelCard, InfoBox ( Can be put as a single using a flag isInfo )
+      ImageBox, ImageCard ( Can be put as a single using a flag is isImage)
+      HomeImage, FooterImage ( Can be put as a single using a flag is isMain )
+
+Next Session:
+  5. Reusable Components:
+      Trying to re-reuse the parts of the 
+
+  6. Component Life Cycle
+
+  7. Passing Dynamic Data to Components
