@@ -39,7 +39,7 @@ Topics:
       
       rendering & re-rendering parts of react
 
-        Normal JSX Syntax will render only once with any state hooks
+        Normal JSX Syntax will render only once without any state hooks
 
       Hooks:
         Hooking setup between the memory of the JS and JSX Element
